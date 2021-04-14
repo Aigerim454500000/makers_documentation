@@ -1,0 +1,31 @@
+.addThemeContainer__inputs {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    /* width: 50vw; */
+    /* height: 1px; */
+
+}
+.addThemeContainer__inputs {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    /* width: 50vw; */
+    /* height: 1px; */
+}
+.titleInp, .imgInp, .descInp{
+    width: 290px;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 4px 4px;
+    margin: 30px 20px;
+    /* background-color: ; */
+}
+.button-add{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px;
+}

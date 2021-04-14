@@ -1,0 +1,156 @@
+.footer {
+  height: 554px;
+  background-color: #20232a;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__left {
+  width: 199px;
+  height: 400px;
+  margin-left: 94px;
+  margin-top: 42px;
+  display: flex;
+  align-content: center;
+}
+
+.footer__left span {
+  align-self: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.footer__left p {
+  position: relative;
+  top: 290px;
+  right: 150px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffe600;
+  font-size: 107px;
+}
+
+.footer__right {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  height: 367px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.right_link {
+  display: flex;
+  flex-wrap: wrap;
+  width: 185px;
+  height: 350px;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer__right a:first-of-type {
+  font-size: 30px;
+}
+
+.footer__right a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(00deg);
+  }
+  /* 20% {
+        transform: rotate(120deg);
+    }
+    40% {
+        transform: rotate(180deg);
+    }
+    60% {
+        transform: rotate(240deg); 
+    }
+    */
+  90% {
+    transform: rotate(365deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media all and (max-width: 380px) {
+  .items-container__items {
+    width: 100vh;
+    margin: 10px auto;
+  }
+  .catalogue__items-container {
+    flex-direction: column;
+    display: inline-flex;
+    width: auto;
+    height: auto;
+  }
+  .catalogue {
+    flex-direction: column;
+    height: auto;
+    margin: 100px auto;
+  }
+  .catalogue span {
+    margin: 50px auto;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  .footer {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__right {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin: 50px auto;
+  }
+
+  .right_link {
+    height: auto;
+  }
+}
+
+/* здесь начинаются уникальные классы для страницы DOCUMENTATION */
+
+.overflow-auto::-webkit-scrollbar {
+  width: 5px; /* ширина для вертикального скролла */
+  height: 8px; /* высота для горизонтального скролла */
+  background-color: white;
+}
+
+/* ползунок скроллбара */
+.overflow-auto::-webkit-scrollbar-thumb {
+  background-color: #ffe500;
+  border-radius: 20%;
+  box-shadow: inset 1px 1px 3px #ffe500;
+}
+
+@media all and (max-width: 768px) {
+  .slide-bar {
+    display: none;
+  }
+}
+
+.test_class::after {
+  content: "";
+  color: black;
+  background-color: white;
+  position: relative;
+  right: 6px;
+}
